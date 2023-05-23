@@ -1,0 +1,81 @@
+
+
+
+zero-energy.com.au/cpanel
+zeroenergycom
+tm+^(nn!Tl6i
+
+
+-------------------
+
+CPANEL Details:
+
+http://brightsource.com.au/cpanel
+brightsource
+M{o!_cEnBys5
+
+
+WordPress:
+hsadmin
+TechSys3#
+
+
+http://zero-energy.com.au/wp-login.php
+
+skacadmin
+TechSys3#
+-----------------------------------------------
+
+
+
+Connected skac.com.au/cpanel
+
+WP
+Admin:
+http://skac.com.au/wp-admin/
+
+WP
+Username:
+W4423904
+
+WP
+Password:
+djcKk[axb8g%pz1_>GZ=
+
+
+----NEW
+
+skacadmin
+TechSys3#
+
+------------------------------------------------
+
+
+Crazydomains.com.au
+Razasabir@gmail.com
+321321aA!
+
+username: razasabir1
+password: P@ssword123
+
+PhpMyAdmin
+
+https://db-wp-wc05syd02.dreamwp.com/index.php
+
+
+Database	w4423904_wp1
+Username	w4423904_wp1
+Password	V.0NwKA8ZiaTRvg9qVP98
+
+
+FTP
+
+Hst		pf4xrnfw.dreamwp.com
+Port	22
+user	w4423904
+pass	djcKk[qxb8g%pz1_>GZ=
+
+--------------------------------------------------
+
+
+LiteSpeed Cache

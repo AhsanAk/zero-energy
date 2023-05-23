@@ -1,0 +1,533 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?926bb5b4bd4ed860b42eca73a2f4ee2f") format("truetype"),
+url("./flaticon.woff?926bb5b4bd4ed860b42eca73a2f4ee2f") format("woff"),
+url("./flaticon.woff2?926bb5b4bd4ed860b42eca73a2f4ee2f") format("woff2"),
+url("./flaticon.eot?926bb5b4bd4ed860b42eca73a2f4ee2f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?926bb5b4bd4ed860b42eca73a2f4ee2f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "play-button": "\f101",
+    "play-button-arrowhead": "\f102",
+    "bright-lightbulb": "\f103",
+    "light-bulb": "\f104",
+    "pdf": "\f105",
+    "down-arrow": "\f106",
+    "up-arrow": "\f107",
+    "left-arrow": "\f108",
+    "renewable-energy": "\f109",
+    "play-button-1": "\f10a",
+    "green-energy": "\f10b",
+    "globe": "\f10c",
+    "save": "\f10d",
+    "cancel": "\f10e",
+    "plug": "\f10f",
+    "worldwide": "\f110",
+    "reneweable-energy": "\f111",
+    "solar-panel": "\f112",
+    "tower": "\f113",
+    "pdf-1": "\f114",
+    "energy": "\f115",
+    "green-energy-1": "\f116",
+    "energy-1": "\f117",
+    "green-home": "\f118",
+    "energy-system": "\f119",
+    "power-plant": "\f11a",
+    "tidal": "\f11b",
+    "happiness": "\f11c",
+    "nuclear-plant": "\f11d",
+    "building": "\f11e",
+    "ecology-and-environment": "\f11f",
+    "wind-power": "\f120",
+    "green-energy-2": "\f121",
+    "villa": "\f122",
+    "quote": "\f123",
+    "light-bulb-1": "\f124",
+    "smart-city": "\f125",
+    "solar-panel-1": "\f126",
+    "file": "\f127",
+    "geothermal-energy": "\f128",
+    "carbon-dioxide": "\f129",
+    "energy-2": "\f12a",
+    "green-city": "\f12b",
+    "celebrating": "\f12c",
+    "fossil-fuel": "\f12d",
+    "solar-panel-2": "\f12e",
+    "solar-energy": "\f12f",
+    "solar-energy-1": "\f130",
+    "energy-3": "\f131",
+    "energy-4": "\f132",
+    "battery": "\f133",
+    "power-plant-1": "\f134",
+    "solar-energy-2": "\f135",
+    "wave": "\f136",
+    "wind-energy": "\f137",
+    "solar-energy-3": "\f138",
+    "ecosystem": "\f139",
+    "arrow-up": "\f13a",
+    "energy-5": "\f13b",
+    "geothermal-energy-1": "\f13c",
+    "green-energy-3": "\f13d",
+    "sustainable-energy": "\f13e",
+    "solar-house": "\f13f",
+    "power-plant-2": "\f140",
+    "right-arrows": "\f141",
+    "save-energy": "\f142",
+    "wind-energy-1": "\f143",
+    "close": "\f144",
+    "cancel-1": "\f145",
+    "zoom-in": "\f146",
+    "lightbulb": "\f147",
+    "bulding": "\f148",
+    "solar-energy-4": "\f149",
+    "renewable-energy-1": "\f14a",
+    "geology": "\f14b",
+    "wind-turbine": "\f14c",
+    "human": "\f14d",
+    "zoom-in-1": "\f14e",
+    "save-energy-1": "\f14f",
+    "play": "\f150",
+    "hydrogen": "\f151",
+    "energy-6": "\f152",
+    "solar-energy-5": "\f153",
+    "water-energy": "\f154",
+    "green-energy-4": "\f155",
+    "green-energy-5": "\f156",
+    "wind-power-1": "\f157",
+    "energy-7": "\f158",
+    "electric-pole": "\f159",
+    "solar-energy-6": "\f15a",
+    "solar-panel-3": "\f15b",
+    "water-energy-1": "\f15c",
+    "atomic-energy": "\f15d",
+    "power-plant-3": "\f15e",
+    "energy-source": "\f15f",
+    "renewable-energy-2": "\f160",
+    "hotel": "\f161",
+    "electricity": "\f162",
+    "power": "\f163",
+    "solar-energy-7": "\f164",
+    "solar-cell": "\f165",
+    "energy-saving": "\f166",
+    "energy-management": "\f167",
+    "eolic-energy": "\f168",
+    "battery-1": "\f169",
+    "energy-saving-light": "\f16a",
+    "power-plant-4": "\f16b",
+    "windmill": "\f16c",
+    "solar-cell-1": "\f16d",
+    "battery-2": "\f16e",
+    "eco-friendly": "\f16f",
+    "wind-energy-2": "\f170",
+    "house": "\f171",
+    "sun-energy": "\f172",
+    "wind-energy-3": "\f173",
+    "gas": "\f174",
+    "bulding-1": "\f175",
+    "solar-panel-4": "\f176",
+    "thermal": "\f177",
+    "energy-8": "\f178",
+    "energy-management-1": "\f179",
+    "geothermal": "\f17a",
+    "transformer": "\f17b",
+    "charge": "\f17c",
+    "electricity-1": "\f17d",
+    "power-line": "\f17e",
+    "power-bank": "\f17f",
+);
+
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-play-button-arrowhead:before {
+    content: map-get($flaticon-map, "play-button-arrowhead");
+}
+.flaticon-bright-lightbulb:before {
+    content: map-get($flaticon-map, "bright-lightbulb");
+}
+.flaticon-light-bulb:before {
+    content: map-get($flaticon-map, "light-bulb");
+}
+.flaticon-pdf:before {
+    content: map-get($flaticon-map, "pdf");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-renewable-energy:before {
+    content: map-get($flaticon-map, "renewable-energy");
+}
+.flaticon-play-button-1:before {
+    content: map-get($flaticon-map, "play-button-1");
+}
+.flaticon-green-energy:before {
+    content: map-get($flaticon-map, "green-energy");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-save:before {
+    content: map-get($flaticon-map, "save");
+}
+.flaticon-cancel:before {
+    content: map-get($flaticon-map, "cancel");
+}
+.flaticon-plug:before {
+    content: map-get($flaticon-map, "plug");
+}
+.flaticon-worldwide:before {
+    content: map-get($flaticon-map, "worldwide");
+}
+.flaticon-reneweable-energy:before {
+    content: map-get($flaticon-map, "reneweable-energy");
+}
+.flaticon-solar-panel:before {
+    content: map-get($flaticon-map, "solar-panel");
+}
+.flaticon-tower:before {
+    content: map-get($flaticon-map, "tower");
+}
+.flaticon-pdf-1:before {
+    content: map-get($flaticon-map, "pdf-1");
+}
+.flaticon-energy:before {
+    content: map-get($flaticon-map, "energy");
+}
+.flaticon-green-energy-1:before {
+    content: map-get($flaticon-map, "green-energy-1");
+}
+.flaticon-energy-1:before {
+    content: map-get($flaticon-map, "energy-1");
+}
+.flaticon-green-home:before {
+    content: map-get($flaticon-map, "green-home");
+}
+.flaticon-energy-system:before {
+    content: map-get($flaticon-map, "energy-system");
+}
+.flaticon-power-plant:before {
+    content: map-get($flaticon-map, "power-plant");
+}
+.flaticon-tidal:before {
+    content: map-get($flaticon-map, "tidal");
+}
+.flaticon-happiness:before {
+    content: map-get($flaticon-map, "happiness");
+}
+.flaticon-nuclear-plant:before {
+    content: map-get($flaticon-map, "nuclear-plant");
+}
+.flaticon-building:before {
+    content: map-get($flaticon-map, "building");
+}
+.flaticon-ecology-and-environment:before {
+    content: map-get($flaticon-map, "ecology-and-environment");
+}
+.flaticon-wind-power:before {
+    content: map-get($flaticon-map, "wind-power");
+}
+.flaticon-green-energy-2:before {
+    content: map-get($flaticon-map, "green-energy-2");
+}
+.flaticon-villa:before {
+    content: map-get($flaticon-map, "villa");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-light-bulb-1:before {
+    content: map-get($flaticon-map, "light-bulb-1");
+}
+.flaticon-smart-city:before {
+    content: map-get($flaticon-map, "smart-city");
+}
+.flaticon-solar-panel-1:before {
+    content: map-get($flaticon-map, "solar-panel-1");
+}
+.flaticon-file:before {
+    content: map-get($flaticon-map, "file");
+}
+.flaticon-geothermal-energy:before {
+    content: map-get($flaticon-map, "geothermal-energy");
+}
+.flaticon-carbon-dioxide:before {
+    content: map-get($flaticon-map, "carbon-dioxide");
+}
+.flaticon-energy-2:before {
+    content: map-get($flaticon-map, "energy-2");
+}
+.flaticon-green-city:before {
+    content: map-get($flaticon-map, "green-city");
+}
+.flaticon-celebrating:before {
+    content: map-get($flaticon-map, "celebrating");
+}
+.flaticon-fossil-fuel:before {
+    content: map-get($flaticon-map, "fossil-fuel");
+}
+.flaticon-solar-panel-2:before {
+    content: map-get($flaticon-map, "solar-panel-2");
+}
+.flaticon-solar-energy:before {
+    content: map-get($flaticon-map, "solar-energy");
+}
+.flaticon-solar-energy-1:before {
+    content: map-get($flaticon-map, "solar-energy-1");
+}
+.flaticon-energy-3:before {
+    content: map-get($flaticon-map, "energy-3");
+}
+.flaticon-energy-4:before {
+    content: map-get($flaticon-map, "energy-4");
+}
+.flaticon-battery:before {
+    content: map-get($flaticon-map, "battery");
+}
+.flaticon-power-plant-1:before {
+    content: map-get($flaticon-map, "power-plant-1");
+}
+.flaticon-solar-energy-2:before {
+    content: map-get($flaticon-map, "solar-energy-2");
+}
+.flaticon-wave:before {
+    content: map-get($flaticon-map, "wave");
+}
+.flaticon-wind-energy:before {
+    content: map-get($flaticon-map, "wind-energy");
+}
+.flaticon-solar-energy-3:before {
+    content: map-get($flaticon-map, "solar-energy-3");
+}
+.flaticon-ecosystem:before {
+    content: map-get($flaticon-map, "ecosystem");
+}
+.flaticon-arrow-up:before {
+    content: map-get($flaticon-map, "arrow-up");
+}
+.flaticon-energy-5:before {
+    content: map-get($flaticon-map, "energy-5");
+}
+.flaticon-geothermal-energy-1:before {
+    content: map-get($flaticon-map, "geothermal-energy-1");
+}
+.flaticon-green-energy-3:before {
+    content: map-get($flaticon-map, "green-energy-3");
+}
+.flaticon-sustainable-energy:before {
+    content: map-get($flaticon-map, "sustainable-energy");
+}
+.flaticon-solar-house:before {
+    content: map-get($flaticon-map, "solar-house");
+}
+.flaticon-power-plant-2:before {
+    content: map-get($flaticon-map, "power-plant-2");
+}
+.flaticon-right-arrows:before {
+    content: map-get($flaticon-map, "right-arrows");
+}
+.flaticon-save-energy:before {
+    content: map-get($flaticon-map, "save-energy");
+}
+.flaticon-wind-energy-1:before {
+    content: map-get($flaticon-map, "wind-energy-1");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-cancel-1:before {
+    content: map-get($flaticon-map, "cancel-1");
+}
+.flaticon-zoom-in:before {
+    content: map-get($flaticon-map, "zoom-in");
+}
+.flaticon-lightbulb:before {
+    content: map-get($flaticon-map, "lightbulb");
+}
+.flaticon-bulding:before {
+    content: map-get($flaticon-map, "bulding");
+}
+.flaticon-solar-energy-4:before {
+    content: map-get($flaticon-map, "solar-energy-4");
+}
+.flaticon-renewable-energy-1:before {
+    content: map-get($flaticon-map, "renewable-energy-1");
+}
+.flaticon-geology:before {
+    content: map-get($flaticon-map, "geology");
+}
+.flaticon-wind-turbine:before {
+    content: map-get($flaticon-map, "wind-turbine");
+}
+.flaticon-human:before {
+    content: map-get($flaticon-map, "human");
+}
+.flaticon-zoom-in-1:before {
+    content: map-get($flaticon-map, "zoom-in-1");
+}
+.flaticon-save-energy-1:before {
+    content: map-get($flaticon-map, "save-energy-1");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-hydrogen:before {
+    content: map-get($flaticon-map, "hydrogen");
+}
+.flaticon-energy-6:before {
+    content: map-get($flaticon-map, "energy-6");
+}
+.flaticon-solar-energy-5:before {
+    content: map-get($flaticon-map, "solar-energy-5");
+}
+.flaticon-water-energy:before {
+    content: map-get($flaticon-map, "water-energy");
+}
+.flaticon-green-energy-4:before {
+    content: map-get($flaticon-map, "green-energy-4");
+}
+.flaticon-green-energy-5:before {
+    content: map-get($flaticon-map, "green-energy-5");
+}
+.flaticon-wind-power-1:before {
+    content: map-get($flaticon-map, "wind-power-1");
+}
+.flaticon-energy-7:before {
+    content: map-get($flaticon-map, "energy-7");
+}
+.flaticon-electric-pole:before {
+    content: map-get($flaticon-map, "electric-pole");
+}
+.flaticon-solar-energy-6:before {
+    content: map-get($flaticon-map, "solar-energy-6");
+}
+.flaticon-solar-panel-3:before {
+    content: map-get($flaticon-map, "solar-panel-3");
+}
+.flaticon-water-energy-1:before {
+    content: map-get($flaticon-map, "water-energy-1");
+}
+.flaticon-atomic-energy:before {
+    content: map-get($flaticon-map, "atomic-energy");
+}
+.flaticon-power-plant-3:before {
+    content: map-get($flaticon-map, "power-plant-3");
+}
+.flaticon-energy-source:before {
+    content: map-get($flaticon-map, "energy-source");
+}
+.flaticon-renewable-energy-2:before {
+    content: map-get($flaticon-map, "renewable-energy-2");
+}
+.flaticon-hotel:before {
+    content: map-get($flaticon-map, "hotel");
+}
+.flaticon-electricity:before {
+    content: map-get($flaticon-map, "electricity");
+}
+.flaticon-power:before {
+    content: map-get($flaticon-map, "power");
+}
+.flaticon-solar-energy-7:before {
+    content: map-get($flaticon-map, "solar-energy-7");
+}
+.flaticon-solar-cell:before {
+    content: map-get($flaticon-map, "solar-cell");
+}
+.flaticon-energy-saving:before {
+    content: map-get($flaticon-map, "energy-saving");
+}
+.flaticon-energy-management:before {
+    content: map-get($flaticon-map, "energy-management");
+}
+.flaticon-eolic-energy:before {
+    content: map-get($flaticon-map, "eolic-energy");
+}
+.flaticon-battery-1:before {
+    content: map-get($flaticon-map, "battery-1");
+}
+.flaticon-energy-saving-light:before {
+    content: map-get($flaticon-map, "energy-saving-light");
+}
+.flaticon-power-plant-4:before {
+    content: map-get($flaticon-map, "power-plant-4");
+}
+.flaticon-windmill:before {
+    content: map-get($flaticon-map, "windmill");
+}
+.flaticon-solar-cell-1:before {
+    content: map-get($flaticon-map, "solar-cell-1");
+}
+.flaticon-battery-2:before {
+    content: map-get($flaticon-map, "battery-2");
+}
+.flaticon-eco-friendly:before {
+    content: map-get($flaticon-map, "eco-friendly");
+}
+.flaticon-wind-energy-2:before {
+    content: map-get($flaticon-map, "wind-energy-2");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-sun-energy:before {
+    content: map-get($flaticon-map, "sun-energy");
+}
+.flaticon-wind-energy-3:before {
+    content: map-get($flaticon-map, "wind-energy-3");
+}
+.flaticon-gas:before {
+    content: map-get($flaticon-map, "gas");
+}
+.flaticon-bulding-1:before {
+    content: map-get($flaticon-map, "bulding-1");
+}
+.flaticon-solar-panel-4:before {
+    content: map-get($flaticon-map, "solar-panel-4");
+}
+.flaticon-thermal:before {
+    content: map-get($flaticon-map, "thermal");
+}
+.flaticon-energy-8:before {
+    content: map-get($flaticon-map, "energy-8");
+}
+.flaticon-energy-management-1:before {
+    content: map-get($flaticon-map, "energy-management-1");
+}
+.flaticon-geothermal:before {
+    content: map-get($flaticon-map, "geothermal");
+}
+.flaticon-transformer:before {
+    content: map-get($flaticon-map, "transformer");
+}
+.flaticon-charge:before {
+    content: map-get($flaticon-map, "charge");
+}
+.flaticon-electricity-1:before {
+    content: map-get($flaticon-map, "electricity-1");
+}
+.flaticon-power-line:before {
+    content: map-get($flaticon-map, "power-line");
+}
+.flaticon-power-bank:before {
+    content: map-get($flaticon-map, "power-bank");
+}
